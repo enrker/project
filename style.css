@@ -1,0 +1,363 @@
+/* pagina de inicio */
+article {
+    font-family: 'Press Start 2P', cursive;    position: absolute;
+}
+.descripcion {
+    width: 600px;
+    height: 500px;
+    position: absolute;
+    top: 150px;
+    left: 100px;
+}
+.descripcion h1 {
+    font-size: 150px;
+}
+.descripcion h2 {
+    font-size: 30px;  
+}
+.logo {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 100px;
+    left: 900px;
+
+}
+.logo:hover {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
+    border-radius: 5%;
+}
+.cuadrado {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
+    border-radius: 5%;
+}
+.boton-jugar {
+    font-size:40px !important;
+    position: absolute;
+    top: 350px;
+    left: 100px;
+}
+.boton-jugar:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease;
+    transition-timing-function: cubic-bezier(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    border-radius: 5%;
+}
+/* pagina de juegos */
+.titulo-juegos {
+    width: 900px;
+    height: 65px;
+    position: absolute;
+    top: 100px;
+    left: 320px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 10px 10px 0px 0px rgb(0, 0, 0);
+}
+.titulo-juegos h1 {
+    margin: 8px;
+}
+.descripcion-juego-1 h2, .descripcion-juego-2 h2, .descripcion-juego-3 h2 {
+    margin: 8px;
+}
+.descripcion-juego-1, .descripcion-juego-2, .descripcion-juego-3 {
+    width: 250px;
+    height: 50px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 10px 10px 0px 0px rgb(0, 0, 0);
+}
+.descripcion-juego-1 h2, .descripcion-juego-2 h2, .descripcion-juego-3 h2 {
+    font-size: 15px;
+    text-align: center;
+}
+.descripcion-juego-1 {
+    top: 600px;
+    left: 115px;
+}
+.descripcion-juego-2 {
+    top: 600px;
+    left: 625px;
+}
+.descripcion-juego-3 {
+    top: 600px;
+    left: 1125px;
+}
+.cuadrado-juegos {
+    box-shadow: 0 0 5px rgb(0, 0, 0);
+    border-radius: 5%;
+}
+.logo-juegos-1 {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 250px;
+    left: 100px;
+}
+.logo-juegos-2 {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 250px;
+    left: 600px;
+}
+.logo-juegos-3 {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 250px;
+    left: 1100px;
+}
+.logo-juegos-1:hover, .logo-juegos-2:hover, .logo-juegos-3:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease;
+    transition-timing-function: cubic-bezier(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    border-radius: 5%;
+
+}
+.logo-juegos-1, .logo-juegos-2, .logo-juegos-3 {
+    transition: transform 0.5s ease-in-out;
+  }
+
+/* pagina de contactos */
+.container-formulario {
+    width: 400px;
+    height: 440px;
+    background-color: white;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+  }
+  
+  /* Estilos del pie de página */
+  footer {
+    background: black;
+    min-height: 100px;
+  }
+  
+  footer p {
+    color: #f3f3f3;
+    text-align: center;
+  }
+  
+  #iconos i {
+    font-size: 26px;
+    padding: 0 8px;
+    color: #f3f3f3;
+  }
+  
+  /* Estilos de la sección del formulario */
+  #seccion-formulario {
+    min-height: 550px;
+  }
+  
+/* juego 1 de piedra papel y tijera */
+.titulo-juego-1 {
+    width: 860px;
+    height: 70px;
+    position: absolute;
+    top: 80px;
+    left: 350px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 10px 10px 0px 0px rgb(0, 0, 0);
+}
+.titulo-juego-1 h1 {
+    margin: 8px;
+}
+.indicaciones-juego-1 {
+    width: 1200px;
+    height: 60px;
+    position: absolute;
+    top: 180px;
+    left: 20px;
+}
+.indicaciones-juego-1 h2{
+    font-size: 20px;
+}
+.opcion {
+    position: absolute;
+}
+#opcion-1{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 270px;
+    left: 250px;
+}
+#opcion-2{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 270px;
+    left: 600px;
+}
+#opcion-3{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 270px;
+    left: 950px;
+}
+#opcion-1 img, #opcion-2 img, #opcion-3 img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+#opcion-1:hover, #opcion-2 :hover, #opcion-3 :hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease;
+    transition-timing-function: cubic-bezier(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    border-radius: 5%;
+}
+.opcion {
+    box-shadow: 0 0 5px rgb(0, 0, 0);
+    border-radius: 5%;
+}
+.opcion {
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 10px;
+}
+.resultado {
+    width: 100px;
+    height: 100px;
+    top: 400px;
+}
+.mensaje {
+    position: absolute;
+    top: 550px;
+    left: 500px;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+/* juego numero 2 */
+.titulo-juego-2 {
+    width: 860px;
+    height: 70px;
+    position: absolute;
+    top: 80px;
+    left: 320px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 10px 10px 0px 0px rgb(0, 0, 0);
+}
+.titulo-juego-2 h1 {
+    margin: 8px;
+}
+.subtitulo-juego-2 {
+    width: 1200px;
+    height: 60px;
+    position: absolute;
+    top: 180px;
+    left: 20px;
+}
+.juego-2 {
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top: 400px;
+    left: 600px;
+
+}
+.caja-juego-2 {
+    font-size: 70px;
+    position: absolute;
+    top: 10px;
+    left: 50px;
+}
+.boton-juego-2 {  
+    position: absolute;
+    top: 140px;
+    left: 50px;
+}
+.boton-juego-2 button {
+    font-size: 25px;
+    box-shadow: 10px 10px 0px 0px rgb(0, 0, 0);
+}
+.caja-juego-2 input {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 10px 10px 0px 0px rgb(0, 0, 0);
+}
+.resultado {
+    width: 400px;
+    height: 50px;
+    position: absolute;
+    top: 210px;
+    left: 50px;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    font-family: 'Press Start 2P', cursive;    position: absolute;
+}
+
+
+/* juego numero 3 */
+.titulo-juego-3 {
+    width: 860px;
+    height: 70px;
+    position: absolute;
+    top: 80px;
+    left: 350px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 10px 10px 0px 0px rgb(0, 0, 0);
+  }
+  
+  .titulo-juego-3 h1 {
+    margin: 8px;
+    text-align: center;
+  }
+  
+  .subtitulo-juego-3 {
+    width: 1200px;
+    height: 60px;
+    position: absolute;
+    top: 180px;
+    left: 20px;
+  }
+  
+  .subtitulo-juego-3 h2 {
+    font-size: 20px;
+  }
+  
+  .tablero {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    width: 280px;
+    margin-bottom: 10px;
+    position: relative;
+    top: 150px;
+  }
+  
+  .celda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    height: 90px;
+  }
+  
+  .celda.x {
+    background-color: #ff7f7f;
+  }
+  
+  .celda.o {
+    background-color: #7f7fff;
+  }
+  
+  .celda.selected {
+    pointer-events: none;
+  }
+  
+  .msj{
+    width: 400px;
+    height: 150px;
+    position: relative;
+    top: 230px;
+    
+  }
